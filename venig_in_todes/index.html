@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="robots" content="noindex nofollow">
+<meta name="Keywords" content="ヴェニスに死す,ベニスに死す,舞台,東京,人見記念講堂,トーマス・マン,アーロン・アンドレ・ゼン,大塚治夫">
+<meta name="Description" content="2020年9月公演予定の舞台「Venig in Todes　ヴェニスに死す」のオフィシャルサイトです。公演情報やチケットの販売を行なっています。">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://use.typekit.net/hcc8xjj.css">
+<title>舞台「Venig in Todes ヴェニスに死す」オフィシャルサイト</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!--　ハンバーガーメニュー　-->
+<script>
+ $(function(){
+    $('.btn_hamburger').click(function(){
+        $('.btn_hamburger,nav').toggleClass('is-active');
+    });
+    
+    $('nav,nav a').click(function(){
+        $('.btn_hamburger,nav').removeClass('is-active');
+    });
+ });
+</script>
+
+<!--トップへ戻るボタンの表示-->
+<script>
+$(function(){
+    $(window).scroll(function(){
+        var TargetPos = $('#introduction').offset().top-60;
+        var ScrollPos = $(window).scrollTop();
+        if(ScrollPos >= TargetPos){
+            $('#top_button').fadeIn();
+        }else{
+            $('#top_button').fadeOut();
+        }
+    });
+});
+</script>
+
+<!--スムーススクロール-->
+
+<script>
+$(function(){
+    $('a[href^=#]').click(function(){
+		var adjust = -59;
+		var speed = 500;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top + adjust;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+});
+</script>
+
+<!--パララックスの画像差し替え-->
+
+<script>
+$(function(){
+    $(window).scroll(function(){
+        var TargetPos = $('#cast').offset().top-60;
+        var ScrollPos = $(window).scrollTop();
+        if(ScrollPos >= TargetPos){
+            $('main article').addClass('another');
+        }else{
+            $('main article').removeClass('another');
+        }
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+ <header>
+  <div id="nav_area">
+   <div class="btn_hamburger">
+    <div class="line line_01"></div>
+    <div class="line line_02"></div>
+    <div class="line line_03"></div>
+   </div>
+   <nav>
+    <ul>
+     <li><a href="#">Top</a></li>
+     <li><a href="#introduction">Introduction</a></li>
+     <li><a href="#story">Story</a></li>
+     <li><a href="#cast">Cast</a></li>
+     <li><a href="#staff">STAFF</a></li>
+     <li><a href="#ticket_schedule">Ticket & Schedule</a></li>
+    </ul>
+   </nav>
+  </div>
+  
+  <div id="top_main">
+   <picture>
+    <source media="(min-width:601px)" srcset="img/mainviasual_responsive_back.jpg" sizes="(max-width:1920px) 100vw">
+    <img src="img/main_smartphone_back.jpg" alt="Venig in Todes ヴェニスに死す">
+   </picture> 
+   <h1><img src="img/Venig-in-todes-logo.png" alt="Venig in Todes ヴェニスに死す"/></h1>
+  </div>
+ 
+</header>
+ 
+ <div id="top_button"><a href="#">▲</a></div>
+ 
+ <main>
+  
+  <article id="introduction">
+   <div class="inner">
+   <h2>Introduction<br><span>イントロダクション</span></h2>
+   <section>
+    <p>　ルキノ・ヴィスコンティ監督による実写映画でも知られる、トーマス・マン原作の中編小説『ヴェニスに死す』が日本初の舞台化！</p>
+    <p>　昨年出演作品が日本で大きな話題となったポーランド人俳優アーロン・アンドレ・ゼンをゲストに迎え、アニメ・ドラマ・映画・舞台と幅広いフィールドで活躍する大塚治夫を筆頭に実力派かつ魅力的な出演陣が織りなす、静謐で明るいながらも暗い影の落ちたイタリア・ヴェネチアの情景と、主人公アッシェンバッハの屈折した愛情の一部始終をご覧ください。</p>
+   </section>
+   </div>
+  </article>
+  
+  <article id="story">
+   <div class="inner">
+    <h2>Story<span>ストーリー</span></h2>
+    <section>
+     <p>　20世紀初頭、ミュンヘンの著名な作家グスタフ・フォン・アッシェンバッハは、異国風の格好をした男に旅情を掻き立てられ、ヴェネチアへと訪れる。滞在先のホテルには長期滞在しているポーランド人の家族がおり、その長男である10代初めの青年・タージオの美しさに魅せられてしまう。最初は熱い視線を送るだけで満足していたアッシェンバッハだったが、タージオに対する思慕は肥大化し続け、やがてアッシェンバッハを狂わせていく。そんな中、華やかなヴェニスにコレラの影が忍び寄る...</p>
+    </section>
+   </div>
+  </article>
+  
+  <article id="cast">
+   <div class="inner">
+   <h2>Cast<span>キャスト</span></h2>
+   <div class="cast_rs">
+   <section>
+    <picture>
+     <source media="(max-width:959px)" srcset="img/tajio_mini.jpg" 100%>
+     <img src="img/tajio.jpg" alt="Aaron André Zen"/>
+    </picture>
+    <div class="cast_intro">
+     <h1>Aaron André Zen</h1>
+     <p>（アーロン・アンドレ・ゼン / タージオ役）1999年5月10日生まれ。ポーランド出身。北欧映画界の巨匠アーロン・ガブリエル・ゼンを父にもち、当時5歳にして『フロム・タイム・トゥー・タイム』にて映画デビュー。昨年日本でも大きな話題になった映画『モス』をはじめ、現在は多くの映画に出演する傍、モデル業界にも進出し精力的に活動を続けている。</p>
+    </div>
+   </section>
+   <section>
+    <picture>
+     <source media="(max-width:959px)" srcset="img/aschenbach_mini.jpg" 100%>
+     <img src="img/aschenbach.jpg" alt="大塚治夫 アッシェンバッハ役"/>
+    </picture>
+    <div class="cast_intro">
+     <h1>大塚治夫</h1>
+     <p>（おおつか　はるお / アッシェンバッハ役）1970年11月9日生まれ。東京都出身。声優である父・大塚周雄の影響で早くから声優業を志し、1990年公開のアニメ映画『創世記アダムスカ』でデビュー。年齢離れしたハスキーボイスと優れた演技が反響を呼んだ。その後は声優・ナレーション業を中心に、舞台や映画・ドラマなどで俳優としても活躍。昨年6月には声優の地位向上や業界の育成を掲げて声優事務所「Flag ships」を設立して独立し、声優業界の発展に尽力している。</p>
+    </div>
+   </section>
+   </div>
+   <section id="other_cast">
+    <ul>
+     <li>米津　寿晴</li>
+     <li>米津　美穂</li>
+     <li>山川　剛史</li>
+     <li>山川　かよこ</li>
+     <li>廣村　敏彦</li>
+     <li>廣村　弘美</li>
+     <li>牧尾　浩志</li>
+     <li>牧尾　紀子</li>
+     <li>上野　敬則</li>
+     <li>上野　万亀</li>
+     <li>成瀬　孝</li>
+     <li>成瀬　忍</li>
+     <li>鬼頭　眞太郎</li>
+     <li>鬼頭　清美</li>
+     <li>松元　高明</li>
+     <li>松元　多賀子</li>
+     <li>竹部　郁文</li>
+     <li>竹部　紀美</li>
+     <li>宮地　智久</li>
+     <li>宮地　芳美</li>
+    </ul>
+   </section>
+   </div>
+  </article>
+  
+  <article id="staff">
+   <div class="inner">
+   <h2>STAFF<span>スタッフ</span></h2>
+   <section>
+    <ul>
+     <li>原作：トーマス・マン</li>
+     <li>脚本：空淵源</li>
+     <li>演出：坂畑ウイト</li>
+     <li>美術：富岡　秀之</li>
+     <li>照明：長門　百香</li>
+     <li>音響：美濃浦　栄二郎</li>
+     <li>衣裳：白澤　さとみ</li>
+     <li>ヘアメイク：河部　祥二</li>
+     <li>演出助手：河部　祥二</li>
+     <li>舞台監督：小久保　忠嗣</li>
+     <li>企画：株式会社Flag ships</li>
+     <li>制作：日売テレビ・ヨンケイ新聞・株式会社Flag ships</li>
+    </ul>
+   </section>
+   </div>
+  </article>
+  
+  <article id="ticket_schedule">
+   <div class="inner">
+   <h2>Ticket & Schedule<span>チケット＆スケジュール</span></h2>
+   <section>
+     <h1>● 会場</h1>
+     <p>昭和女子大学　人見記念講堂</p>
+     <p>Map:<a href="https://goo.gl/maps/19sZ6HvtKgwQGJBk7">〒154-8533東京都世田谷区太子堂1-7-57</a></p>
+   </section>
+   
+   <section id="schedule">
+     <h1>● 公演日程</h1>
+     <p>2020年9月4日（土）〜 9月6日（日）</p>
+     <table>
+      <tr>
+       <th rowspan="2" colspan="2">2020年<br>9月</th>
+       <td>4</td>
+       <td>5</td>
+       <td>6</td>
+      </tr>
+      <tr id="day">
+       <td>金</td>
+       <td>土</td>
+       <td>日</td>
+      </tr>
+      <tr>
+       <th colspan="2">14:00~</th>
+       <td></td>
+       <td>★</td>
+       <td>★</td>
+      </tr>
+      <tr>
+       <th colspan="2">17:00~</th>
+       <td>★</td>
+       <td>★</td>
+       <td></td>
+      </tr>
+     </table>
+   </section>
+   
+   <section id="ticket">
+     <h1>● チケット</h1>
+     <p>S席…9,000円</p><p>A席…7,000円</p>
+     <p>※全席指定・税込価格<br>※未就学児の入場はご遠慮ください。</p>
+   </section>
+   
+   <section>
+     <h1>● チケット販売</h1>
+     <p>2020年5月8日（土）〜</p>
+     <a href="contact.html" class="button">チケット申込</a>
+     <p>お問い合わせ：☎︎0120-45-6789(平日9:00~17:00)</p>
+   </section>
+   
+   </div>
+  </article>
+
+ </main>
+ <footer>
+  <small>舞台「Venig in Todes ヴェニスに死す」　2020年5月　人見記念講堂<br>Copyright&copy;2020 「Venig in Todes ヴェニスに死す」  All rights reserved.</small>
+ </footer>
+</body>
+</html>
