@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*CSS Document*/
+body{
+  color: #000;
+  font-size: 16px;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+  line-height: 1.5;
+  background: #fff;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+#wrapper{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.error_list {
+	padding: 10px 30px;
+	color: #ff2e5a;
+	font-size: 86%;
+	text-align: left;
+	border: 1px solid #ff2e5a;
+	border-radius: 5px;
+}
+
+header {
+  line-height: 60px;
+  text-align: center;
+  background: #f5deb3;
+}
+
+header h1{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.formbox{
+  position: inherit;
+}
+
+form{
+  position:fixed;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+form dl dd{
+  margin: -1.5em 0 0 200px;
+}
+
+input[name="btn_confirm"], #btn_box{
+  position:fixed;
+  left: 50%;
+  transform: translate(-50%);
+}
